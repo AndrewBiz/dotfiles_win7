@@ -50,8 +50,8 @@ task :install do
     next if DO_NOT_SYMLINK.include?(basename)
 
     if ADD_DOT.include?(basename)
-	    target = File.expand_path("~/.#{basename}")
-	  else
+      target = File.expand_path("~/.#{basename}")
+    else
       target = File.expand_path("~/#{basename}")
     end
     if File.exist?(target)
