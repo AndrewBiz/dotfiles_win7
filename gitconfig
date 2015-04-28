@@ -1,0 +1,38 @@
+[user]
+	name = Andrew Bizyaev
+	email = andrew.bizyaev@gmail.com
+[github]
+	user = AndrewBiz
+	token = c2969c52e97b0329d8db4a851de9eb73
+[init]
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+	ignorecase = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[merge]
+	tool = vimdiff
+[mergetool "vimdiff"]
+	cmd = vim -d "$LOCAL" "$MERGED" "$REMOTE"
+	trustExitCode = true
+[push]
+	default = current
+[color]
+	ui = auto
+	status = auto
+	diff = auto
+	branch = auto
+[branch "master"]
+	merge = master
+[alias]
+	who = shortlog -s -n --no-merges
+	standup = shortlog --since=yesterday
+	today = shortlog --since=midnight
+	uncommit = reset --soft HEAD^
+	unref = reset --soft HEAD@{1}
+	subs = submodule foreach git pull origin master
+    hist = recent-branches
+[web]
+	browser = open

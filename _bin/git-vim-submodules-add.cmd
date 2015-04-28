@@ -1,0 +1,19 @@
+git submodule add http://github.com/scrooloose/syntastic.git vimfiles/bundle/syntastic
+git submodule add http://github.com/scrooloose/nerdtree.git vimfiles/bundle/nerdtree
+git submodule add http://github.com/kien/ctrlp.vim.git vimfiles/bundle/ctrlp.vim
+git submodule add http://github.com/tpope/vim-repeat.git vimfiles/bundle/vim-repeat
+git submodule add http://github.com/kchmck/vim-coffee-script.git vimfiles/bundle/vim-coffee-script
+git submodule add http://github.com/pangloss/vim-javascript.git vimfiles/bundle/vim-javascript
+git submodule add http://github.com/henrik/vim-indexed-search.git vimfiles/bundle/vim-indexed-search
+git submodule add http://github.com/vim-ruby/vim-ruby.git vimfiles/bundle/vim-ruby
+git submodule add http://github.com/tpope/vim-rails.git vimfiles/bundle/vim-rails
+git submodule add http://github.com/tpope/vim-commentary.git vimfiles/bundle/vim-commentary
+git submodule add http://github.com/tpope/vim-git.git vimfiles/bundle/vim-git
+git submodule add http://github.com/tpope/vim-markdown.git vimfiles/bundle/vim-markdown
+git submodule add http://github.com/vim-scripts/file-line.git vimfiles/bundle/file-line
+git submodule add http://github.com/Lokaltog/vim-powerline.git vimfiles/bundle/vim-powerline
+git submodule add http://github.com/bronson/vim-trailing-whitespace.git vimfiles/bundle/vim-trailing-whitespace
+git submodule add http://github.com/vim-scripts/Railscasts-Theme-GUIand256color.git vimfiles/bundle/Railscasts-Theme-GUIand256color
+git submodule add http://github.com/ngmy/vim-rubocop.git vimfiles/bundle/vim-rubocop
+git submodule add http://github.com/vim-scripts/avrasm.vim.git vimfiles/bundle/avrasm.vim
+
