@@ -1,0 +1,54 @@
+[submodule "vimfiles/bundle/syntastic"]
+	path = vimfiles/bundle/syntastic
+	url = http://github.com/scrooloose/syntastic.git
+[submodule "vimfiles/bundle/nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
+[submodule "vimfiles/bundle/ctrlp.vim"]
+	path = vimfiles/bundle/ctrlp.vim
+	url = http://github.com/kien/ctrlp.vim.git
+[submodule "vimfiles/bundle/vim-repeat"]
+	path = vimfiles/bundle/vim-repeat
+	url = http://github.com/tpope/vim-repeat.git
+[submodule "vimfiles/bundle/vim-coffee-script"]
+	path = vimfiles/bundle/vim-coffee-script
+	url = http://github.com/kchmck/vim-coffee-script.git
+[submodule "vimfiles/bundle/vim-javascript"]
+	path = vimfiles/bundle/vim-javascript
+	url = http://github.com/pangloss/vim-javascript.git
+[submodule "vimfiles/bundle/vim-indexed-search"]
+	path = vimfiles/bundle/vim-indexed-search
+	url = http://github.com/henrik/vim-indexed-search.git
+[submodule "vimfiles/bundle/vim-ruby"]
+	path = vimfiles/bundle/vim-ruby
+	url = http://github.com/vim-ruby/vim-ruby.git
+[submodule "vimfiles/bundle/vim-rails"]
+	path = vimfiles/bundle/vim-rails
+	url = http://github.com/tpope/vim-rails.git
+[submodule "vimfiles/bundle/vim-commentary"]
+	path = vimfiles/bundle/vim-commentary
+	url = http://github.com/tpope/vim-commentary.git
+[submodule "vimfiles/bundle/vim-git"]
+	path = vimfiles/bundle/vim-git
+	url = http://github.com/tpope/vim-git.git
+[submodule "vimfiles/bundle/vim-markdown"]
+	path = vimfiles/bundle/vim-markdown
+	url = http://github.com/tpope/vim-markdown.git
+[submodule "vimfiles/bundle/file-line"]
+	path = vimfiles/bundle/file-line
+	url = http://github.com/vim-scripts/file-line.git
+[submodule "vimfiles/bundle/vim-powerline"]
+	path = vimfiles/bundle/vim-powerline
+	url = http://github.com/Lokaltog/vim-powerline.git
+[submodule "vimfiles/bundle/vim-trailing-whitespace"]
+	path = vimfiles/bundle/vim-trailing-whitespace
+	url = http://github.com/bronson/vim-trailing-whitespace.git
+[submodule "vimfiles/bundle/Railscasts-Theme-GUIand256color"]
+	path = vimfiles/bundle/Railscasts-Theme-GUIand256color
+	url = http://github.com/vim-scripts/Railscasts-Theme-GUIand256color.git
+[submodule "vimfiles/bundle/vim-rubocop"]
+	path = vimfiles/bundle/vim-rubocop
+	url = http://github.com/ngmy/vim-rubocop.git
+[submodule "vimfiles/bundle/avrasm.vim"]
+	path = vimfiles/bundle/avrasm.vim
+	url = http://github.com/vim-scripts/avrasm.vim.git
