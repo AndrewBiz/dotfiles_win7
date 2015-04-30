@@ -41,19 +41,6 @@ noremap <S-Right> :tabn<CR>
 " Un-highlight search matches
 nnoremap <leader><leader> :noh<CR>
 
-" Open URL from this line (OS X only).
-map <leader>u :call OpenURI()<CR>
-
-" Ack/Quickfix windows
-" map <leader>q :cclose<CR>
-
-" Center line on previous/next fix.
-" map - :cprev<CR> zz
-" map + :cnext<CR> zz
-" Center line in previous/next file.
-" map g- :cpfile<CR> zz
-" map g+ :cnfile<CR> zz
-
 " Create a split on the given side.
 " From http://technotales.wordpress.com/2010/04/29/vim-splits-a-guide-to-doing-exactly-what-you-want/ via joakimk.
 nmap <leader><left>   :leftabove  vsp<CR>
@@ -69,27 +56,8 @@ vnoremap <S-Tab> <gv
 vnoremap > >gv
 vnoremap < <gv
 
-" Henrik: I constantly hit "u" in visual mode when I mean to "y". Use "gu" for those rare occasions.
-" vnoremap u <nop>
-" vnoremap gu u
-
-" Henrik: Because I often accidentally :W when I mean to :w.
-" command! W w
-
 " Henrik: In command mode, type %% to insert the path of the currently edited file, as a shortcut for %:h<tab>.
 " cmap %% <C-R>=expand("%:h") . "/" <CR>
-
-" Run tests in tmux.
-" nmap § :call VimuxRunCommand("rake")<cr>
-
-" Tell other tmux pane to ctrl+c.
-" nmap <leader>§ :VimuxInterruptRunner<CR>
-
-" ANB: work with russian keaboard
-" nmap <leader>m :set keymap=russian-jcukenmac<CR>
-" nmap <leader>w :set keymap=russian-jcukenwin<CR>
-" inoremap <F5> <C-^>
-" cnoremap <F5> <C-^>
 
 " ANB: fix trailing whightspaces
 autocmd BufWritePre * :FixWhitespace

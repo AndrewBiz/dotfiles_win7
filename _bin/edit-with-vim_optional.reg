@@ -1,0 +1,5 @@
+﻿[HKEY_LOCAL_MACHINE\SOFTWARE\Vim\Gvim]
+path="C:\Program Files\vim\gvim.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{51EEE242-AD87-11d3-9C1E-0090278BBD99}\InProcServer32]
+(Default) = "C:\Program Files\vim\gvimext.dll"

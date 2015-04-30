@@ -59,7 +59,8 @@ task :install do
       next
     end
 
-    ln_win(source, target)
+    ln_win(source, target)  #for windows
+    #symlink(source, target)  #for unix
     info "Creating symlink: #{target} --> #{source}"
   end
 

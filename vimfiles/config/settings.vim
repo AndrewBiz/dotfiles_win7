@@ -7,7 +7,7 @@ color blackboard                      " Default color scheme.
 set backspace=indent,eol,start        " Allow backspacing over everything in insert mode.
 set fillchars=vert:\                  " No pipes in vertical split separators.
 set laststatus=2                      " Always show status bar.
-set listchars=nbsp:·,tab:▸\ ,trail:·  " Configure how invisibles appear.
+set listchars=nbsp:·,tab:▸\ ,trail:·,eol:¬ " Configure how invisibles appear.
 set list                              " Show invisibles.
 set modelines=3                       " Use modeline overrides.
 set nojoinspaces                      " 1 space, not 2, when joining sentences.
@@ -17,11 +17,23 @@ set showcmd                           " Show partially typed command sequences.
 set visualbell                        " Don't beep.
 set wildmode=longest,list             " Autocompleting files: prompt, don't autopick.
 set wrap                              " Soft wrap.
+set linespace=2                       " add some line space for easy reading
+
+" Keyboard&Spelling
+set spelllang=ru_yo,en_us             " russian spelling
+set keymap=russian-jcuken             " russian keymapping
+"nmap <leader>w :set keymap=russian-jcukenwin<CR>
+set iminsert=0
+set imsearch=0
+
 
 " Indentation.
+set autoindent
 set expandtab                         " Replace tabs with spaces.
 set shiftwidth=2                      " Spaces used for autoindent and commands like >>.
 set softtabstop=2                     " Spaces inserted by <Tab>.
+set tabstop=2
+
 
 " Searching.
 set gdefault                          " Global search by default (/g turns it off).
@@ -36,10 +48,6 @@ set iskeyword+=-
 
 " More persistent command history.
 set history=10000
-
-" Hide away backup and swap files.
-" set backupdir=~/.vim/backup
-" set directory=~/.vim/backup
 
 " Reload file without prompting if it has changed on disk.
 " Will still prompt if there is unsaved text in the buffer.
