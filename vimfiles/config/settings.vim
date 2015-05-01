@@ -21,11 +21,11 @@ set linespace=2                       " add some line space for easy reading
 
 " Keyboard&Spelling
 set spelllang=ru_yo,en_us             " russian spelling
-set keymap=russian-jcuken             " russian keymapping
-"nmap <leader>w :set keymap=russian-jcukenwin<CR>
-set iminsert=0
-set imsearch=0
-
+set keymap=russian-jcukenwin          " Включение поддержки русского языка
+"set keymap=russian-jcuken             " russian keymapping
+set iminsert=0                        " start with EN mapping
+set imsearch=0                        " start with EN mapping
+highlight lCursor guifg=NONE guibg=Cyan
 
 " Indentation.
 set autoindent

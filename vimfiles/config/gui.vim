@@ -9,11 +9,13 @@ if has("gui_running")
     colorscheme railscasts
 
     set guitablabel=%M%t
-    set lines=40
-    set columns=100
+    set lines=35
+    set columns=105
 
     if has("gui_win32") || has("gui_win32s")
-        set guifont=PT_Mono:h12
+        "set guifont=PT_Mono:h12
+        "set guifont=consolas:h12:cRUSSIAN
+        set guifont=DejaVu_Sans_Mono:h12:cRUSSIAN
     endif
 else
     "set railscasts colorscheme when running vim in gnome terminal
